@@ -60,7 +60,7 @@ def calc_fill(fill, block, method):
 def calc_bias(row_pos, bias):
     # Extracts the bias row for the customer
     return np.array(bias[.columns[1:]].iloc[selected_customer],dtype = np.float32)
-bias
+
 
 # Get max amount of customers to add titles to CSV
 max_cust = 0
