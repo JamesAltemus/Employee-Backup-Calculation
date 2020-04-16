@@ -1,5 +1,5 @@
 # Employee-Backup-Calculation
-Calculates a 'fair' distribution for employee backups based on given constraints. Employees will not be allowed to backup more than one of another employee's customer.
+Calculates a 'fair' distribution for employee backups based on given constraints. Employees will not be allowed to backup more than one of another employee's customers.
 
 Data Inputs:
 AssignmentTable: A sheet containing employee information. The first column must be employee name. The second column must be the amount of people they're allowed/are willing to backup. All remaining columns are the names of customers that employee usually supports
