@@ -85,7 +85,7 @@ for emp in emp_idx:
         bias = calc_bias(cust_name, bias_matrix)
         inval = unique_block[selected_emp]
         rng = np.random.sample(size = len(emp_idx))/100
-        a_mat = full*bias*inval+rng
+        a_mat = full*inval*(bias+rng)
         
         # Update selected employee's restrictions
         unique_block[selected_emp][a_mat == max(a_mat)] = 0
